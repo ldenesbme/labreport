@@ -1,0 +1,89 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{labreport}
+
+\firstname{Kovács}
+\familyname{Béla}
+\modulecode{Kurzus kód}
+\modulename{Kurzus név}
+\studentnumber{Neptun ABC123}
+\reporttitle{Cím}
+\subtitle{Alcím}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Insert the title, author and date
+\thispagestyle{empty} % No header, footer or page number on title page 
+
+
+\vspace{50pt}
+\noindent 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus congue dui quam, id vestibulum dui bibendum molestie. Nam vitae mauris justo. Suspendisse potenti. Etiam pharetra feugiat faucibus. Praesent in ipsum pretium, lacinia tortor eu, rutrum magna. 
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{coverimage}
+\end{figure}
+\vspace{-20pt}
+
+\clearpage
+
+%\tableofcontents
+%\clearpage
+
+\pagestyle{myheadings} % Change page style to one with header and page numbers
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION
+%----------------------------------------------------------------------------------------
+
+\section{Fejezet cím}
+\label{sec:intro}
+
+Morbi nec efficitur felis, quis facilisis ante. Praesent molestie ultricies egestas. Pellentesque eleifend elit vitae elit ullamcorper, finibus dignissim dolor rhoncus. Proin pulvinar sollicitudin lorem, varius tincidunt nulla tempus sed. Duis egestas arcu ac augue ullamcorper cursus. Morbi auctor sit amet dui et tristique. 
+
+
+%----------------------------------------------------------------------------------------
+%	Modelling
+%----------------------------------------------------------------------------------------
+
+\newpage
+\subsection{Alfejezet cím}
+\label{subsec:modelling}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{randomkepjpgformatumban}
+\end{figure}
+\vspace{-20pt}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{randomkeppngformatumban}
+\end{figure}
+\vspace{-20pt}
+
+Suspendisse vulputate placerat mi, non aliquet dui posuere nec. Aenean sit amet ante a felis placerat iaculis. Phasellus feugiat elit risus, quis auctor massa cursus ut. Etiam congue condimentum justo. Maecenas accumsan arcu quam, et placerat augue aliquam vitae. Duis ultricies ac est a lobortis. 
+
+
+\newpage
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\clearpage
+
+\nocite{*} % just to create bibliography even if there are no citations
+\printbibliography
+
+\section{Források}
+
+Sablon alapján: overleaf.com/project/601009f2dcbe0b002d664c52 [2025.05.07]
+
+
+\end{document}
